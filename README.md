@@ -1,4 +1,4 @@
-### Intelligent Pedagogical Assistant: Multimodal RAG & Voice-Driven Orchestration 
+## Intelligent Pedagogical Assistant: Multimodal RAG & Voice-Driven Orchestration 
 
 ## Executive Summary 
 
@@ -24,7 +24,7 @@ Microservices Architecture : Découplage des services (Vocal, RAG, UI) via Docke
 Data Persistence & Caching : Architecture hybride utilisant MongoDB pour la persistance des connaissances, Qdrant pour les vecteurs et Redis pour l'optimisation des performances de session. 
 Asynchronous Processing : Gestion des flux de données massifs pour assurer une fluidité totale de l'interface utilisateur lors des phases de calcul intensif du LLM.
 
-Key Engineering Challenges & Solutions 
+## Key Engineering Challenges & Solutions 
 
 1. Optimisation de la Latence RAG : Performance Temps Réel 
 Le maintien d'une interaction naturelle nécessite une réponse quasi instantanée. Pour relever ce défi, j'ai implémenté une stratégie d'optimisation multi-couches : 
@@ -72,7 +72,7 @@ Cadre de supervision pour assurer la performance continue des modèles.
   <img src="Gardien Login-2026-04-16-132002.png" width="800">
 </p>
 
-##Technical Stack 
+## Technical Stack 
 Backend & IA : Python, FastAPI, LangChain, NLP. 
 Languages & Frameworks : Python (FastAPI), Java (Spring Boot). 
 Infrastructure : Docker, Microservices, MLOps. 
