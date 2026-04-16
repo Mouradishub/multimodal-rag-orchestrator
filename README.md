@@ -1,11 +1,11 @@
-## Intelligent Pedagogical Assistant: Multimodal RAG & Voice-Driven Orchestration 
+#### Intelligent Pedagogical Assistant: Multimodal RAG & Voice-Driven Orchestration 
 
-Executive Summary 
+## Executive Summary 
 
 Conception et déploiement d'un assistant intelligent de pointe conçu pour augmenter les capacités des experts lors de sessions de transmission de connaissances complexes. Ce système résout le défi critique de la charge cognitive élevée en automatisant intégralement la navigation documentaire et en fournissant des insights contextuels via une architecture AI-First hautement disponible. 
 L'application agit comme un partenaire cognitif en temps réel : elle ingère des corpus de documents denses (tels que des cours de radiologie), en extrait la substance sémantique et les structures complexes, puis orchestre une interaction fluide entre la voix du présentateur et le support visuel. L'objectif est de permettre à l'expert de se concentrer exclusivement sur son discours tandis que l'assistant gère la logistique documentaire et l'approfondissement pédagogique de manière autonome ou à la demande. 
 
-Core Engineering Pillars (Ingénierie de Pointe) 
+## Core Engineering Pillars (Ingénierie de Pointe) 
 
 1. Multimodal RAG Pipeline (Intelligence Documentaire) 
 Contrairement aux systèmes RAG conventionnels, cette architecture ingère et traite des structures de données hétérogènes : 
