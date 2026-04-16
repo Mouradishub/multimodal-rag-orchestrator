@@ -73,23 +73,29 @@ LLM Switching : Capacité d'interchanger dynamiquement entre différents modèle
 Flexibilité de Déploiement : Cette approche permet de privilégier des modèles locaux (via Llama) pour une confidentialité totale des données sensibles, ou des API cloud pour une puissance de raisonnement maximale. 
 
 5. High-Level System Architecture 
+### Architectural Overview
+Un système découplé basé sur des microservices pour assurer une scalabilité horizontale.
+<p align="center">
+  <img src="Gardien Login-2026-04-16-130151.png" width="800">
+</p>
 
+### Multimodal Ingestion Pipeline
+Processus asynchrone d'extraction et d'indexation sémantique (ETL).
+<p align="center">
+  <img src="Gardien Login-2026-04-16-130455.png" width="800">
+</p>
 
-High-Level Architectural Overview: Un système découplé basé sur des microservices pour assurer une scalabilité horizontale et une résilience accrue." 
+### Real-Time Event Orchestration
+Séquençage des interactions voix-contexte pour une synchronisation UI instantanée.
+<p align="center">
+  <img src="Gardien Login-2026-04-16-131716.png" width="800">
+</p>
 
- 
-
- 
-
-Multimodal Ingestion Pipeline: Processus asynchrone d'extraction, de transformation et d'indexation sémantique (ETL) au sein d'un espace vectoriel à haute dimension. 
-
- 
-
-Real-Time Event Orchestration: Séquençage des interactions voix-contexte garantissant une réponse fluide et une synchronisation UI instantanée. 
-
- 
-
-MLOps Lifecycle & Monitoring: Cadre de supervision pour assurer la performance continue des modèles et l'intégrité des bases de données vectorielles. 
+### MLOps Lifecycle & Monitoring
+Cadre de supervision pour assurer la performance continue des modèles.
+<p align="center">
+  <img src="Gardien Login-2026-04-16-132002.png" width="800">
+</p>
 
 6. Technical Stack 
 
