@@ -74,7 +74,11 @@ Cadre de supervision pour assurer la performance continue des modèles.
 
 ## Technical Stack 
 Backend & IA : Python, FastAPI, LangChain, NLP. 
+
 Languages & Frameworks : Python (FastAPI), Java (Spring Boot). 
+
 Infrastructure : Docker, Microservices, MLOps. 
+
 Data : Qdrant (Vector DB), MongoDB, Redis. 
+
 Interface : Synchronisation temps réel, Speech-to-Text/Intent Recognition. 
