@@ -1,4 +1,4 @@
-#### Intelligent Pedagogical Assistant: Multimodal RAG & Voice-Driven Orchestration 
+### Intelligent Pedagogical Assistant: Multimodal RAG & Voice-Driven Orchestration 
 
 ## Executive Summary 
 
