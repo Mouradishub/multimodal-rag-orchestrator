@@ -1,11 +1,11 @@
-Intelligent Pedagogical Assistant: Multimodal RAG & Voice-Driven Orchestration 
+###Intelligent Pedagogical Assistant: Multimodal RAG & Voice-Driven Orchestration 
 
-Executive Summary 
+##Executive Summary 
 
 Conception et déploiement d'un assistant intelligent de pointe conçu pour augmenter les capacités des experts lors de sessions de transmission de connaissances complexes. Ce système résout le défi critique de la charge cognitive élevée en automatisant intégralement la navigation documentaire et en fournissant des insights contextuels via une architecture AI-First hautement disponible. 
 L'application agit comme un partenaire cognitif en temps réel : elle ingère des corpus de documents denses (tels que des cours de radiologie), en extrait la substance sémantique et les structures complexes, puis orchestre une interaction fluide entre la voix du présentateur et le support visuel. L'objectif est de permettre à l'expert de se concentrer exclusivement sur son discours tandis que l'assistant gère la logistique documentaire et l'approfondissement pédagogique de manière autonome ou à la demande. 
 
-Core Engineering Pillars (Ingénierie de Pointe) 
+##Core Engineering Pillars (Ingénierie de Pointe) 
 
 1. Multimodal RAG Pipeline (Intelligence Documentaire) 
 Contrairement aux systèmes RAG conventionnels, cette architecture ingère et traite des structures de données hétérogènes : 
@@ -24,7 +24,7 @@ Microservices Architecture : Découplage des services (Vocal, RAG, UI) via Docke
 Data Persistence & Caching : Architecture hybride utilisant MongoDB pour la persistance des connaissances, Qdrant pour les vecteurs et Redis pour l'optimisation des performances de session. 
 Asynchronous Processing : Gestion des flux de données massifs pour assurer une fluidité totale de l'interface utilisateur lors des phases de calcul intensif du LLM.
 
-Key Engineering Challenges & Solutions 
+##Key Engineering Challenges & Solutions 
 
 1. Optimisation de la Latence RAG : Performance Temps Réel 
 Le maintien d'une interaction naturelle nécessite une réponse quasi instantanée. Pour relever ce défi, j'ai implémenté une stratégie d'optimisation multi-couches : 
@@ -48,38 +48,33 @@ LLM Switching : Capacité d'interchanger dynamiquement entre différents modèle
 Flexibilité de Déploiement : Cette approche permet de privilégier des modèles locaux (via Llama) pour une confidentialité totale des données sensibles, ou des API cloud pour une puissance de raisonnement maximale. 
 
 5. High-Level System Architecture 
-### Architectural Overview
+# Architectural Overview
 Un système découplé basé sur des microservices pour assurer une scalabilité horizontale.
 <p align="center">
   <img src="Gardien Login-2026-04-16-130151.png" width="800">
 </p>
 
-### Multimodal Ingestion Pipeline
+# Multimodal Ingestion Pipeline
 Processus asynchrone d'extraction et d'indexation sémantique (ETL).
 <p align="center">
   <img src="Gardien Login-2026-04-16-130455.png" width="800">
 </p>
 
-### Real-Time Event Orchestration
+# Real-Time Event Orchestration
 Séquençage des interactions voix-contexte pour une synchronisation UI instantanée.
 <p align="center">
   <img src="Gardien Login-2026-04-16-131716.png" width="800">
 </p>
 
-### MLOps Lifecycle & Monitoring
+# MLOps Lifecycle & Monitoring
 Cadre de supervision pour assurer la performance continue des modèles.
 <p align="center">
   <img src="Gardien Login-2026-04-16-132002.png" width="800">
 </p>
 
-6. Technical Stack 
-
+##Technical Stack 
 Backend & IA : Python, FastAPI, LangChain, NLP. 
-
 Languages & Frameworks : Python (FastAPI), Java (Spring Boot). 
-
 Infrastructure : Docker, Microservices, MLOps. 
-
 Data : Qdrant (Vector DB), MongoDB, Redis. 
-
 Interface : Synchronisation temps réel, Speech-to-Text/Intent Recognition. 
